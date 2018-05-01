@@ -1,6 +1,6 @@
 
 $(".card").hide();
-var queryURL1 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/GA/Atlanta.json";
+var queryURL1 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/GA/Atlanta.json";
 
 $("#atlantaButton").on("click", function(event) {
     event.preventDefault();
@@ -38,7 +38,7 @@ $.ajax({
 });
 
 
-var queryURL2 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/MA/Boston.json";
+var queryURL2 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/MA/Boston.json";
 
 $("#bostonButton").on("click", function(event)  {
     event.preventDefault();
@@ -68,7 +68,7 @@ $("#bostonButton").on("click", function(event)  {
     });
 });
 
-var queryURL3 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/IL/Chicago.json";
+var queryURL3 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/IL/Chicago.json";
 
 $("#chicagoButton").on("click", function(event) {
     event.preventDefault();
@@ -95,7 +95,7 @@ $("#chicagoButton").on("click", function(event) {
     });
 });
 
-var queryURL4 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/CO/Denver.json";
+var queryURL4 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/CO/Denver.json";
 
 $("#denverButton").on("click", function(event) {
     event.preventDefault();
@@ -122,7 +122,7 @@ $("#denverButton").on("click", function(event) {
     });
 });
 
-var queryURL5 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/canada/Montreal.json";
+var queryURL5 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/canada/Montreal.json";
 
 $("#monButton").on("click", function(event)  {
     event.preventDefault();
@@ -149,7 +149,7 @@ $("#monButton").on("click", function(event)  {
     });
 });
 
-var queryURL6 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/UK/London.json";
+var queryURL6 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/UK/London.json";
 
 $("#lonButton").on("click", function(event) {
     event.preventDefault();
@@ -176,7 +176,7 @@ $("#lonButton").on("click", function(event) {
     });
 });
 
-var queryURL7 = "http://api.wunderground.com/api/7754b8a5e040a902/conditions/q/UK/Edinburgh.json";
+var queryURL7 = "https://api.wunderground.com/api/7754b8a5e040a902/conditions/q/UK/Edinburgh.json";
 
 $("#edinButton").on("click", function(event)    {
     event.preventDefault();
